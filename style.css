@@ -1,0 +1,433 @@
+
+
+body {
+   
+    font-family: 'Lato', sans-serif;
+}
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+.container{
+    margin: 0px 70px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.header__logo{
+    font-size: 10px;
+    font-weight: 200px;
+    color: rgb(255, 218, 5);
+    padding-top: 30px;
+} 
+.logo{
+    color:  rgb(27, 1, 121);
+    margin-left: 100px;
+}
+.nav{
+    margin-right: -40px;
+}
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color .9 linear;
+    padding-top: 30px;
+    color: #77777794;
+}
+.nav__link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 93, 29);
+    opacity: 0;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    z-index: 1;
+    transition: .2s linear;
+}
+.nav__link:hover{
+    color: rgb(0, 0, 0);
+}
+.nav__link:hover:after{
+    opacity: 1;
+}
+.tap__link{
+    height: 40px;
+    width: 10%;
+    margin-top: 30px;
+    border: 0px;
+    background-color: #fff;
+    color: rgb(214, 61, 0);
+    font-size: 13px;
+    margin-right: 70px;
+}
+.logos{
+    width:70% ;
+    height: 35px;
+    margin-left: 220px;
+}
+.text{
+    margin: 140px 170px;
+    letter-spacing: 1px;
+    float: left;
+}
+.first{
+    color:  rgb(27, 1, 121);
+    font-size: 35px;  
+    width: fit-content;
+    height: fit-content; 
+}
+.secondary{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(27, 1, 121, 0.397);
+    margin-top: -30px;
+    letter-spacing: -0.2px;
+    height: fit-content;
+    width: fit-content;
+}
+.photo__1{
+    width: 700px;
+    height: 500px;
+    margin-left: 550px;
+    margin-top:-390px;
+    float: right;
+}
+.foot{
+    display: flex;
+    font-size: 14px;
+    
+}
+.vvod__1{
+    border: 1px solid rgb(197, 197, 197);
+    background-color: #fff;
+    color: #77777794;
+    border-radius: 3px; 
+    width: 250px;
+    height: 50px; 
+    text-align: left;
+    font-size: 14px;
+    
+}
+.knopka__1{
+    border: 0px;
+    background-color: rgb(255, 93, 29);
+    color: #fff;
+    border-radius: 3px; 
+    width: 130px;
+    height: 50px; 
+    margin-left: 20px;
+    font-size: 14px;
+}
+.footer{
+    width: 80%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    display: flex;
+}
+.firs{
+    width: 45%;
+    height: 400px;
+    text-align: center;
+    font-size: smaller;
+    border: 0px solid black;
+    padding-top:110px;
+}
+.second{
+    width: 45%;
+    height: 400px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: smaller;
+    border: 0px solid black;
+    padding-top: 110px;
+}
+.third{
+    width: 45%;
+    height: 400px;
+    margin-left: 50px;
+    text-align:center;
+    font-size: smaller;
+    border: 0px solid black;
+    padding-top:110px;
+}
+.nvideo{
+    font-size: 14px;
+    color: rgba(27, 1, 121, 0.397);
+}
+.vnaturi{
+    width: 140px;
+    height: 140px;
+    margin-top: -85px;
+}
+h3{
+    font-size: 20px;
+    color:  rgb(27, 1, 121);
+}
+.nurkhat{
+    margin-top: 100px;
+    margin-left: 470px;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(27, 1, 121) ;
+    width: fit-content;
+    height: fit-content;
+}
+.nau{
+    text-align: center;
+    font-size: 19px;
+    color: rgba(27, 1, 121, 0.397);
+}
+.treti_abzac{
+    margin-left: 530px;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(27, 1, 121) ;
+    width: fit-content;
+    height: fit-content;
+}
+
+.prodolzhenie{
+    text-align: center;
+    font-size: 19px;
+    color: rgba(27, 1, 121, 0.397);
+    margin-left: 30px;
+}
+.lines{
+    margin: 0px 220px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(27, 1, 121) ;
+}
+.lineof{
+    align:center;
+    width: 1080px;
+    color: darkblue;
+    height: 4px;
+    background-color: rgb(255, 93, 29);
+    border: 0px;
+    border-radius: 8px;
+}
+.text_2{
+    float: left;
+    margin: 70px 170px;
+    letter-spacing: 1px;
+}
+.ssss{
+    font-size: 40px;
+    color:rgb(27, 1, 121) ;
+    width: fit-content;
+    height: fit-content;
+}
+.sss{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(27, 1, 121, 0.397);
+    letter-spacing: 0.6px;
+    
+}
+.fotka{
+    width: 550px;
+    height: 500px;
+    float: right;
+    margin-right: 190px;
+    margin-top: -450px;
+}
+.knop{
+    border: 0px;
+    background-color: rgb(255, 93, 29);
+    color: #fff;
+    border-radius: 3px; 
+    width: 200px;
+    height: 50px; 
+    font-size: 14px;
+    margin-top: 30px;
+}
+.abzac{
+    height: 500px;
+    width: 100%;
+    margin-top: 600px;
+    background-color: rgba(224, 169, 138, 0.226);
+}
+.citata{
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color:  rgb(27, 1, 121);
+    text-align: center;
+    margin-left: 470px;
+    margin-top: 30px;
+    width: fit-content;
+    height: fit-content;
+    line-height: 40px;
+    float: left;
+}
+.quees{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 680px ;
+    margin-top: 50px;
+}
+.devushka{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    align-items: center;
+    margin-top: 400px;
+    margin-left: -160px;
+}
+.flex{
+    margin-left: 340px;
+    margin-top: -50px;
+    color:  rgb(27, 1, 121);
+}
+.feduk{
+    margin-left: 340px;
+    margin-top: -13px;
+    color: rgba(27, 1, 121, 0.397); 
+}
+.predpos{
+    margin-top: 200px;
+}
+.mine{
+    width: 700px;
+    height: 700px;
+    float: left;
+}
+.pred{
+    font-size: 40px;
+    color:rgb(27, 1, 121) ;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    margin-right: 400px;
+}
+.pochti{
+    margin-right: 300px ;
+    float: right;
+}
+.posl{
+    border: 0px;
+    background-color: rgb(255, 93, 29);
+    color: #fff;
+    border-radius: 3px; 
+    width: 200px;
+    height: 50px; 
+    font-size: 14px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.mess{
+    border: 1px solid rgb(197, 197, 197);
+    background-color: #fff;
+    color: #77777794;
+    border-radius: 3px; 
+    width: 400px;
+    height: 100px; 
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.vsetakye{
+    font-size: 19px;
+    color:  rgb(27, 1, 121);
+}
+.baskasha{
+    border: 1px solid rgb(255, 93, 29); ;
+    background-color: rgba(224, 169, 138, 0.226);
+    height: 50px;
+    width: 400px;
+    text-align: left;
+    border-radius: 3px;
+    color: #77777794;
+    font-size: 14px;
+}
+.baska{
+    border: 1px solid rgb(197, 197, 197);
+    background-color: #fff;
+    color: #77777794;
+    border-radius: 3px; 
+    width: 400px;
+    height: 50px; 
+    text-align: left;
+    font-size: 14px;
+}
+.nakonecta{
+    margin-top: 1000px;
+    text-align: center;
+    background-color: rgb(35, 23, 77); 
+    height: 450px;   
+    width: 100%;
+    border-bottom: 3px;
+}
+.bitirdim{
+    font-size: 40px;
+    color:#fff;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px auto;
+    margin-top: 400px;
+}
+.ees{
+    border: 1px solid rgb(197, 197, 197);
+    background-color: #fff;
+    color: #77777794;
+    border-radius: 3px; 
+    width: 250px;
+    height: 50px; 
+    text-align: left;
+    font-size: 14px;
+}
+.ura{
+    border: 0px;
+    background-color: rgb(255, 93, 29);
+    color: #fff;
+    border-radius: 3px; 
+    width: 200px;
+    height: 50px; 
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.astynda{
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 200px;
+    width: fit-content;
+    height: fit-content;
+}
+.asty{
+    color:rgb(158, 158, 158);
+    margin-top: 40px;
+    margin-left: 200px;
+    width: fit-content;
+    height: fit-content;
+}
+.kiik{
+    color: rgb(158, 158, 158);
+    margin: 0px 10px;
+}
+.ssa{
+    display: 
+    justify-content: space-between;
+
+
+}
+.kpop{
+    margin-left:600px ;
+}
